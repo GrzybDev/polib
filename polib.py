@@ -1322,7 +1322,7 @@ class _POFileParser(object):
         self.add('ct', ['st', 'he', 'gc', 'oc', 'fl', 'tc', 'pc', 'pm',
                         'pp', 'ms', 'mx'],                               'ct')
         self.add('mi', ['st', 'he', 'gc', 'oc', 'fl', 'ct', 'tc', 'pc',
-                 'pm', 'pp', 'ms', 'mx'],                                'mi')
+                 'pm', 'pp', 'ms', 'mx', 'mi'],                          'mi')
         self.add('mp', ['tc', 'gc', 'pc', 'pm', 'pp', 'mi'],             'mp')
         self.add('ms', ['mi', 'mp', 'tc'],                               'ms')
         self.add('mx', ['mi', 'mx', 'mp', 'tc'],                         'mx')
